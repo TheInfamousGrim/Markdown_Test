@@ -15,11 +15,11 @@ Vapor's naughty lil cheatsheet for using markdown.
 | Ordered List |
  1. first item
  2. second item
- 3. third item |
+ 3. third item 
 | Unordered List | 
 - First Item 
 - Second Item 
-- Third item |
+- Third item 
 | Code | `code` |
 | Horizontal Rule | --- | 
 | Link | [title](https://www.google.com) |
@@ -32,7 +32,7 @@ Vapor's naughty lil cheatsheet for using markdown.
 | Table | As is being show in this lovely piece of markdown |
 | Fenced Code | ``` on a line leave a space and then close with ``` |
 | Footnote | Here's a sentence with a footnote. [^1] |
-[^1]: This is the footnote
+[^1]: This is the footnote[^1]
 | Heading ID | ### My Great Heading {#good-head} |
 | Definition List |
  term
