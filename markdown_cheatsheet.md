@@ -12,14 +12,20 @@ Vapor's naughty lil cheatsheet for using markdown.
 | Bold | **Bold Text** |
 | Italic | *Italicized text* |
 | Blockquote | > Blockquote |
-| Ordered List |
+
+**Ordered List** 
  1. first item
  2. second item
  3. third item 
-| Unordered List | 
+
+
+**Unordered List**  
 - First Item 
 - Second Item 
 - Third item 
+
+| **Element** | **Syntax** |
+| ----------- | ---------- |
 | Code | `code` |
 | Horizontal Rule | --- | 
 | Link | [title](https://www.google.com) |
