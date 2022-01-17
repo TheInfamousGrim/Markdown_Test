@@ -5,25 +5,16 @@ Vapor's naughty lil cheatsheet for using markdown.
 
 **Table of Contents**
 
-[Headers](#Headers)/
-[Emphasis](#Emphasis)
-
-[Lists](#Lists)
-
-[Images](#Images)
-
-[Code and Syntax Highlighting](#Code-and-Syntax-Highlighting)
-
-[Tables](#Tables)
-
-[Blockquotes](#Blockquotes)
-
-[Inline HTML](#Inline-HTML)
-
-[Horizontal Rule](#Horizontal-Rule)
-
-[Line Breaks](#Line-Breaks)
-
+[Headers](#Headers)<br /> 
+[Emphasis](#Emphasis)<br />    
+[Lists](#Lists)<br />
+[Images](#Images)<br />
+[Code and Syntax Highlighting](#Code-and-Syntax-Highlighting)<br />
+[Tables](#Tables)<br />
+[Blockquotes](#Blockquotes)<br />
+[Inline HTML](#Inline-HTML)<br />
+[Horizontal Rule](#Horizontal-Rule)<br />
+[Line Breaks](#Line-Breaks)<br />
 [YouTube Videos](#YouTube-Videos)
 
 
@@ -100,7 +91,7 @@ strikethrough uses two tildes ~~Scratch this.~~
 
     First ordered list item···You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown.)
 
-···To have a line break without a paragraph, you will need to use two trailin spaces.··
+···To have a line break without a paragraph, you will need to use a `<br />` tag.<br />
 ···Note that this line is seperate, but within the same paragraph.··
 ···(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
@@ -121,12 +112,12 @@ strikethrough uses two tildes ~~Scratch this.~~
 
     First ordered list item···You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown.)
 
-···To have a line break without a paragraph, you will need to use two trailin spaces.··
-···Note that this line is seperate, but within the same paragraph.··
+···To have a line break without a paragraph, you will need to use a `<br />` tag.<br />
+···Note that this line is seperate, but within the same paragraph.<br />
 ···(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 * Unordered lists can use asterisks
-- Or minuses
+- Or Minuses
 + Or Pluses
 
 ## Links
@@ -147,7 +138,7 @@ There are two ways to create links
 
 Or leave it emepty and use the [link text itself]
 
-URLs and URLs in angle brackets will automatically get turned into links. 
+URLs and URLs in angle brackets will automatically get turned into links.
 http://www.example.com or <http://example.com> and sometimes 
 example.com (but not on Github, for example).
 
@@ -170,8 +161,8 @@ Some text to show that the reference links can follow later.
 
 Or leave it emepty and use the [link text itself]
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://example.com> and sometimes 
+URLs and URLs in angle brackets will automatically get turned into links.<br /> 
+http://www.example.com or <http://example.com> and sometimes<br />
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later. 
@@ -215,7 +206,9 @@ Code blocks are part of the Markdown spec, but syntax highlighting isn't.
  
 However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting.
 
-Which Languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers).
+Which Languages are supported and how those language names should be written will vary<br />
+from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages<br />
+(and not-really-languages, like diffs and HTTP headers).
 
 ```
 
@@ -225,7 +218,9 @@ Which Languages are supported and how those language names should be written wil
 
 Inline `code` has `back-ticks around` it. 
 
-Blocks of code are either fenced by lines with three back-ticks, or are indented with four spaces. I recommend only using the fenced code blocks -- They're easier and only they support syntax highlighting. 
+Blocks of code are either fenced by lines with three back-ticks,<br />
+or are indented with four spaces. I recommend only using the fenced code blocks<br />
+-- They're easier and only they support syntax highlighting. 
 
 ```
 
@@ -268,7 +263,9 @@ But let's throw in a <b>tag</b>
 
 ## Tables
 
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email --a task that would otherwise require copy-pasting from another application. 
+Tables aren't part of the core Markdown spec, but they are part of GFM and<br />
+*Markdown Here* supports them. They are an easy way of adding tables to your email<br />
+--a task that would otherwise require copy-pasting from another application. 
 
 ```
 
@@ -298,7 +295,7 @@ Colons can be used to align columns.
 | col 2 is      | centered      |    $12 | 
 | zebra stripes | are neat      |     $1 |
 
-There must be at least 3 dashes seperating each header cell. 
+There must be at least 3 dashes seperating each header cell.<br /> 
 The outer pips (|) are optional, and you don't need to make the
 raw Markdown line up prettily. You can also use inline Markdown.  
 
