@@ -6,7 +6,7 @@ Vapor's naughty lil cheatsheet for using markdown.
 **Table of Contents**
 
 [Headers](#Headers)<br /> 
-[Emphasis](#Emphasis)<br />    
+[Emphasis](#Emphasis)<br /> 
 [Lists](#Lists)<br />
 [Images](#Images)<br />
 [Code and Syntax Highlighting](#Code-and-Syntax-Highlighting)<br />
@@ -82,9 +82,9 @@ strikethrough uses two tildes ~~Scratch this.~~
 
 1. First ordered list item
 2. Another item
-..* Unordered sub-list.
+  * Unordered sub-list.
 1. Actual numbers don't matter, just that it's a number
-··1. Ordered sub-list
+  1. Ordered sub-list
 4. And another item.
 
 
@@ -103,9 +103,9 @@ strikethrough uses two tildes ~~Scratch this.~~
 
 1. First ordered list item
 2. Another item
-..* Unordered sub-list.*
+  * Unordered sub-list.
 1. Actual numbers don't matter, just that it's a number
-··1. Ordered sub-list
+  1. Ordered sub-list
 4. And another item.
 
 
@@ -296,7 +296,7 @@ Colons can be used to align columns.
 | zebra stripes | are neat      |     $1 |
 
 There must be at least 3 dashes seperating each header cell.<br /> 
-The outer pips (|) are optional, and you don't need to make the
+The outer pips (|) are optional, and you don't need to make the<br />
 raw Markdown line up prettily. You can also use inline Markdown.  
 
 Markdown | Less | Pretty
@@ -378,9 +378,9 @@ Undersocres
 
 ## Line Breaks
 
-My basic recommendation for learning how line breaks work is to experiment and discover
- --hit<Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines),
-see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
+My basic recommendation for learning how line breaks work is to experiment and discover<br />
+--hit<Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines),<br />
+see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.<br />
 
 Here are some things to try out:
 
@@ -390,7 +390,7 @@ Here's a line for us to start with.
 
 This line is seperated from the one above by two newlines, so it will be a *seperate paragraph*
 
-This line is also a seperate paragraph, but...
+This line is also a seperate paragraph, but...<br />
 This line is only seperated by a single newline, so it's a seperate line in the *same paragraph*
 
 ```
@@ -399,7 +399,7 @@ Here's a line for us to start with.
 
 This line is seperated from the one above by two newlines, so it will be a *seperate paragraph*
 
-This line is also a seperate paragraph, but...
+This line is also a seperate paragraph, but...<br />
 This line is only seperated by a single newline, so it's a seperate line in the *same paragraph*
 
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use 
@@ -416,6 +416,8 @@ They can't be added directly but you can add an image with a link to the video l
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Or, in pure Markdown, but losing the image sizing and border:
+
+```
 
 ```
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
