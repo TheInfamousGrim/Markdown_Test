@@ -6,16 +6,27 @@ Vapor's naughty lil cheatsheet for using markdown.
 **Table of Contents**
 
 [Headers](#Headers)
+
 [Emphasis](#Emphasis)
+
 [Lists](#Lists)
+
 [Images](#Images)
-[Code and Syntax Highlighting](#Code and Syntax Highlighting)
+
+[Code and Syntax Highlighting](#"Code and Syntax Highlighting")
+
 [Tables](#Tables)
+
 [Blockquotes](#Blockquotes)
-[Inline HTML](#Inline HTML)
-[Horizontal Rule](#Horizontal Rule)
-[Line Breaks](#Line Breaks)
-[YouTube Videos](#YouTube Videos)
+
+[Inline HTML](#"Inline HTML")
+
+[Horizontal Rule](#"Horizontal Rule")
+
+[Line Breaks](#"Line Breaks")
+
+[YouTube Videos](#"YouTube Videos")
+
 
 ## Headers
 ---------- 
