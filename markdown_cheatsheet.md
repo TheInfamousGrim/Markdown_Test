@@ -13,19 +13,19 @@ Vapor's naughty lil cheatsheet for using markdown.
 
 [Images](#Images)
 
-[Code and Syntax Highlighting](#"Code and Syntax Highlighting")
+[Code and Syntax Highlighting](#Code-and-Syntax-Highlighting)
 
 [Tables](#Tables)
 
 [Blockquotes](#Blockquotes)
 
-[Inline HTML](#"Inline HTML")
+[Inline HTML](#Inline-HTML)
 
-[Horizontal Rule](#"Horizontal Rule")
+[Horizontal Rule](#Horizontal-Rule)
 
-[Line Breaks](#"Line Breaks")
+[Line Breaks](#Line-Breaks)
 
-[YouTube Videos](#"YouTube Videos")
+[YouTube Videos](#YouTube-Videos)
 
 
 ## Headers
