@@ -5,8 +5,7 @@ Vapor's naughty lil cheatsheet for using markdown.
 
 **Table of Contents**
 
-[Headers](#Headers)
-
+[Headers](#Headers)/
 [Emphasis](#Emphasis)
 
 [Lists](#Lists)
